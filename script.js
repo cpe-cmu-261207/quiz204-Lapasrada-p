@@ -7,7 +7,7 @@ const color = document.querySelector('#color');
 // define more constants and variables here
 const btn_search = document.querySelector("#search");
 const btn_reset = document.querySelector("#reset");
-const text = document.querySelector("#text");
+
 
 btn_toggle.onclick = () => {
   if(btn_toggle.innerText=="Display Calculation"){
@@ -31,8 +31,14 @@ btn_search.onclick = () => {
 
 }
 
-function searchWord() {
+const text = document.querySelector("#text");
+
+// function searchWord() {
+//   const num = length.value;
+//   let word = word.length
+//   let regExp = new RegExp(num, "gi");
+//   text.innerHTML = (text.textContent).replace(regExp, "<mark>$&</mark>")
 
 
-}
+// }
 
